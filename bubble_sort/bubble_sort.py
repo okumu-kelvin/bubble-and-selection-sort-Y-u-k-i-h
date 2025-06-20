@@ -8,6 +8,10 @@ def bubble_sort(unsorted_list):
                 temp_element = unsorted_list[j]
                 unsorted_list[j] = unsorted_list[j + 1]
                 unsorted_list[j + 1] = temp_element
+            else:
+                # If the current element is less than or equal to the next, do nothing
+                pass
+
     return unsorted_list
 
 # Something I learnt from C is that you can swap two variables without using a temporary variable by using a bitwise XOR operation.
